@@ -1,0 +1,33 @@
+/* ================ Custom Fonts ============== */
+@font-face {
+  font-family: "Galano Grotesque Regular";
+  src: url("./assets/fonts/galanogrotesque-regular.otf");
+}
+
+@font-face {
+  font-family: "Galano Grotesque Medium";
+  src: url("./assets/fonts/galanogrotesque-medium.otf");
+}
+
+@font-face {
+  font-family: "Galano Grotesque SemiBold";
+  src: url("./assets/fonts/galanogrotesque-semibold.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Galano Grotesque Regular";
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}

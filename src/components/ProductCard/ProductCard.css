@@ -1,0 +1,26 @@
+.product_card {
+  max-width: 22rem;
+}
+
+.product_card .heading1 {
+  margin: 1rem 0 0.25rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.product_card .desc {
+  color: #4d4d4d;
+  line-height: 1.5rem;
+}
+
+@media screen and (max-width: 755.5px) {
+  .product_card {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 379px) {
+  .product_card,
+  .product_card img {
+    max-width: 18rem;
+  }
+}

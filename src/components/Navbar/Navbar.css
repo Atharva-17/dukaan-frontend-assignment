@@ -1,0 +1,39 @@
+.navbar {
+  max-height: 5.5rem;
+}
+
+.navbar.flex {
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar li {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  cursor: pointer;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border-radius: 0.25rem;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar li {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin: 0.25rem;
+  }
+
+  .button {
+    padding: 0.5rem 1rem;
+  }
+}

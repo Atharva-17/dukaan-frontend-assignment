@@ -1,0 +1,24 @@
+.free_products {
+  margin: 5rem auto;
+}
+
+.free_products h2.heading {
+  letter-spacing: -0.04em;
+  margin-bottom: 3rem;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 755.5px) {
+  .free_products h2.heading {
+    text-align: center;
+  }
+
+  .products {
+    justify-content: center;
+  }
+}
